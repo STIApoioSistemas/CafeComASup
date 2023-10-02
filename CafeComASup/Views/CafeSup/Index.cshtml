@@ -1,0 +1,26 @@
+﻿@model Funcionarios
+@{
+    ViewData["Title"] = "Café com a Superintendência";
+}
+
+<div class="background">
+    @*<div class="background"></div>*@
+
+    <div class="modal-login login-box">
+        <div class="logo">
+            <img src="~/img/logo.png" />
+        </div>
+        <form asp-controller="CafeSup" asp-action="Index" method="post">
+            @*<div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input asp-for="Email" type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>*@
+
+            <div class="user-box">
+                <input asp-for="Email" type="text" name="email" required="">
+                <label>Email</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Verificar</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\publicacaoes\CafeSup</_PublishTargetUrl>
+    <History>True|2023-10-02T18:58:00.6945895Z;True|2023-10-02T14:56:24.8458635-03:00;True|2023-10-02T14:50:10.3801877-03:00;True|2023-10-02T14:47:04.0794806-03:00;True|2023-10-02T14:42:11.5780524-03:00;True|2023-09-29T15:09:52.1386711-03:00;True|2023-09-22T14:20:49.1280464-03:00;True|2023-09-21T18:12:51.9795100-03:00;True|2023-09-21T18:06:48.3637272-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
