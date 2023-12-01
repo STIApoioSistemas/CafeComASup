@@ -1,0 +1,49 @@
+﻿@model string
+@{
+	ViewData["title"] = "Balanço Institucional 2023";
+}
+
+@if(Model == "Erro01") {
+	<div class="containerError d-flex align-items-center flex-column justify-content-center">
+
+		<div class="registrationsClosed">
+			<img src="~/img/inscricoes-encerradas.png" />
+		</div>
+
+		<div class="d-flex align-items-center mt-4">
+			<div class="container-info mx-auto text-center mt-3">
+				<strong class="poppins" style="font-size: 20px">Número de funcionários já atingido</strong>
+
+				<p class="roboto mt-4" style="font-size: 18px">
+					Infelizmente, já atingimos o <br> número suficiente de funcionários para o <br> <b>Balanço Institucional 2023 e Perspectivas Futuras</b> 
+					
+				</p>
+			</div>
+
+		</div>
+		<a class="btn btn-dark poppins mt-5" asp-action="Index" asp-controller="CafeSup">Voltar</a>
+	</div>
+}else {
+	<div class="containerError d-flex align-items-center flex-column justify-content-center">
+
+		<h1 class="Oops">Oops!</h1>
+		<div class="d-flex align-items-center mt-4">
+			<div class="emailNotFound">
+				<img src="~/img/EmailNotFound.png" />
+			</div>
+			<div class="container-info mx-auto text-center mt-3" >
+				<strong class="poppins" style="font-size: 30px">Email não encontrado</strong>
+
+				<p class="roboto mt-4" style="font-size: 22px">
+					Infelizmente, não conseguimos encontrar <br> esse Email no nosso sistema!
+				</p>
+
+				<p class="roboto mt-1" style="font-size: 20px">Por gentileza, para adicionar o seu email,<br> entre em contato com: <a href="mailto:marcos.yamamoto@daee.sp.gov.br">marcos.yamamoto@daee.sp.gov.br</a> </p>
+			</div>
+
+		</div>
+		<a class="btn btn-dark poppins mt-5" asp-action="Index" asp-controller="CafeSup">Voltar e tentar novamente</a>
+	</div>
+
+	
+}
