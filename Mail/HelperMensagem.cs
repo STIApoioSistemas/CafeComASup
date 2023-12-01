@@ -25,15 +25,15 @@ namespace CafeComASup.Mail
 
 					$"<p style=\"text-align: center;\"> DATA:<strong> 12 DE DEZEMBRO DE 2023</strong></p>" +
 
-					$"<p style=\"text-align: center;\"> HORÁRIO:<strong>DAS 10H30 ÀS 14H30</strong></p>" +
+					$"<p style=\"text-align: center;\"> HORÁRIO:<strong> DAS 10H30 ÀS 14H30</strong></p>" +
 
-					$"<p style=\"text-align: center;\"> LOCAL:<strong>AUDITÓRIO AUGUSTO RUSCHI</strong></p>" +
+					$"<p style=\"text-align: center;\"> LOCAL:<strong> AUDITÓRIO AUGUSTO RUSCHI</strong></p>" +
 
 					$"<p style=\"text-align: center;\"> AV. PROF. FREDERICO HERMANN JUNIOR, 345</p>" +
 
 					$"<p style=\"text-align: center;\"> (PRÓXIMO AO METRÔ PINHEIROS)</p>" +
 
-					$"<p style=\"text-align: center;\"> OBSERVAÇÃO:<strong>NÃO HÁ ESTACIONAMENTO NO LOCAL</strong></p>" +
+					$"<p style=\"text-align: center;\"> OBSERVAÇÃO:<strong> NÃO HÁ ESTACIONAMENTO NO LOCAL</strong></p>" +
 
 					$"<p style=\"text-align: center;\">Data e Hora: <strong>{c.DataConfirmacao}</strong></p>" +
 					
