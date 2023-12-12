@@ -10,6 +10,7 @@ namespace CafeComASup.Controllers
             return View();
         }
 
+        //feVM = funcionario evento View Model
         public IActionResult Cafe(FuncionarioEventoVM feVM)
         {
             return View(feVM);
