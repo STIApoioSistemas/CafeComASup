@@ -11,8 +11,8 @@ namespace CafeComASup.Mail
 			try
 			{
 				var client = new HttpClient();
-				//client.BaseAddress = new Uri("http://10.20.42.3:5001/");
-				client.BaseAddress = new Uri("http://localhost:5001/");
+				client.BaseAddress = new Uri("http://10.20.42.3:5001/");
+				//client.BaseAddress = new Uri("http://localhost:5001/");
 				client.DefaultRequestHeaders.Accept.Clear();
 				client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 				HttpResponseMessage response = await client.PostAsJsonAsync($"v1/Email?hash={Parametros.HashEmail}", email);

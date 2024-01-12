@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 
 // Conexao com o Banco de Dados
 builder.Services.AddDbContext<Context>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("SrvEventos"),
+    options.UseMySql(builder.Configuration.GetConnectionString("Homologacao"),
                      ServerVersion.Parse("8.0.25-mysql")));
 
 //ACESSO AO REPOSITORY

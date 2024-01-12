@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT_Tarde\\CafeComASup\\CafeComASup.csproj": {}
+    "C:\\Users\\eststimanhades\\Desktop\\Cafe com a SUP\\CafeComASup\\CafeComASup\\CafeComASup.csproj": {}
   },
   "projects": {
-    "C:\\GIT_Tarde\\CafeComASup\\CafeComASup.csproj": {
+    "C:\\Users\\eststimanhades\\Desktop\\Cafe com a SUP\\CafeComASup\\CafeComASup\\CafeComASup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT_Tarde\\CafeComASup\\CafeComASup.csproj",
+        "projectUniqueName": "C:\\Users\\eststimanhades\\Desktop\\Cafe com a SUP\\CafeComASup\\CafeComASup\\CafeComASup.csproj",
         "projectName": "CafeComASup",
-        "projectPath": "C:\\GIT_Tarde\\CafeComASup\\CafeComASup.csproj",
-        "packagesPath": "C:\\Users\\eststitardedes\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT_Tarde\\CafeComASup\\obj\\",
+        "projectPath": "C:\\Users\\eststimanhades\\Desktop\\Cafe com a SUP\\CafeComASup\\CafeComASup\\CafeComASup.csproj",
+        "packagesPath": "C:\\Users\\eststimanhades\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eststimanhades\\Desktop\\Cafe com a SUP\\CafeComASup\\CafeComASup\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eststitardedes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eststimanhades\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
